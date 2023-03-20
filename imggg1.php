@@ -1,0 +1,21 @@
+<?php
+session_start();
+if(isset($_GET['source'])){
+$source='temp/'.$_GET['source'].'.png';
+$image=imagecreatefrompng($source);
+$white=imagecolorallocate($image,255,255,255);
+$black=imagecolorallocate($image,0,0,0);
+$font_size=20;
+$rotation=0;
+$origin_x=70;
+$origin_y=212;
+$font="font/Amatic-Bold.ttf";
+$text=$_GET['source'];
+$text1=imagettftext($image,$font_size,$rotation,$origin_x,$origin_y,$black,$font,$text);
+imagepng($image,$source,9);
+}else{
+echo 'no Image';
+}
+$_SESSION['uid']=$_GET['source'];
+header('location:http://uddeshah.com/mailer/mail.php');
+?>

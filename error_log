@@ -1,0 +1,4 @@
+[05-Mar-2016 14:36:49 UTC] PHP Fatal error:  Class 'DOMPDF' not found in /home/viccky/public_html/uddeshah.com/qrgen/ar.php on line 7
+[06-Mar-2016 02:59:20 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 4194304 bytes) in /home/viccky/public_html/uddeshah.com/qrgen/dompdf/include/frame_decorator.cls.php on line 149
+[06-Mar-2016 03:12:26 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 72 bytes) in /home/viccky/public_html/uddeshah.com/qrgen/dompdf/include/page_frame_decorator.cls.php on line 158
+[06-Mar-2016 03:14:14 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 1693670 bytes) in /home/viccky/public_html/uddeshah.com/qrgen/dompdf/lib/class.pdf.php on line 3065
